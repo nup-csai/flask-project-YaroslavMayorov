@@ -1,5 +1,6 @@
 import requests
 
+
 def check_root_url(url):
     try:
         response = requests.get(url)
