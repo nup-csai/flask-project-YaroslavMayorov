@@ -16,8 +16,6 @@
 
 /recover_password (POST) - processes data from the form, check if such user exists and send new password in email
 
-/profile (GET) - shows the html page with menu: links to user profile, to tracked item, to bought items
-
 /form (GET) - shows the html page with the form with information about user
 
 /form (POST) - processes data from the form, change the data about user in database
