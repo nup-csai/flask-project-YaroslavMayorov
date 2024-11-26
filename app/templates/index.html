@@ -1,12 +1,20 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Task Tracker</title>
+{% extends "base.html" %}
 
-</head>
-<body>
-    <h1>Task Tracker</h1>
-
-
-</body>
-</html>
+{% block content %}
+<main>
+    <div class="hero">
+        <div class="container">
+            <div class="main-heading">
+                <h1 class="title">Open for yourself</h1>
+                <h2 class="subtitle" style="margin-top: 15px">WATCH4DEAL</h2>
+            </div>
+            <div class="form-container">
+                <form id="price-tracker-form">
+                    <input type="url" name="price-link" placeholder="Enter the product link here" required>
+                    <button type="submit">Track Price</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</main>
+{% endblock %}
